@@ -1,0 +1,19 @@
+a.) 
+Global namespace scope - define objects, functions, types, and templates in the outermost namespace scope of a program. If an identifier's declaration is outside of any and all blocks, namespaces, and classes, then the identifier has global namespace scope.
+Example
+int main(){
+int n = 99;}
+b.)
+Local scope - a quality of variables that confers a local context on their values.
+example;
+int marks()
+maark 1 = 99;}
+c.
+Function prototype scope - reaches its conclusion at the point where the closest enclosing function declarator finishes.
+example;
+int main()
+{
+.........
+greet()..
+d.
+Funtion scope - It can be seen anywhere within the body of a function, even before the point where the function is declared. The availability of function scope enables the writing of statements such as "goto cleaning" before the actual cleanup.
